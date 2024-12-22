@@ -15,10 +15,9 @@ Contest/
 │   │   ├── Iniciante/
 │   │   │   ├── A/
 │   │   │   │   ├── A.cpp
-│   │   │   │   ├── Makefile
 │   │   │   │   └── README.md # Enunciado do problema
 │   │   │   ├── B/
-│   │   │   └── ...
+│   │   │   └── Makefile
 │   │   ├── Intermediario/
 │   │   ├── Avancado/
 │   │   └── ...
@@ -35,28 +34,6 @@ Contest/
   - Código-fonte (em linguagens como C++ ou Python).
   - Arquivo `Makefile` para compilar e executar os testes.
   - Arquivo `README.md` com o enunciado do problema.
-
-## Exemplo de Contest
-
-```
-Contest/
-├── CDB/
-│   ├── Contest_YYYY_MM_DD/
-│   │   ├── Iniciante/
-│   │   │   ├── A/
-│   │   │   │   ├── main.cpp
-│   │   │   │   ├── Makefile
-│   │   │   │   └── README.md # Enunciado do problema
-│   │   │   ├── B/
-│   │   │   └── ...
-│   │   ├── Intermediario/
-│   │   ├── Avancado/
-│   │   └── ...
-│   └── ...
-└── OutrasContest/
-    ├── Pasta/
-    ├── ...
-```
 
 ## Motivação
 
@@ -96,7 +73,7 @@ make run
 
 ```bash
 cd Contest/CDB/Contest_YYYY_MM_DD/Nivel/Problema_X
-python3 main.py
+python3 X.py
 ```
 
 ## Meu Compromisso
